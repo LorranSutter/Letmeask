@@ -1,27 +1,17 @@
 import { useContext } from 'react';
-import { useHistory } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import { AuthContext } from '../App';
 
 import illustrationImg from '../assets/img/illustration.svg';
 import logoImg from '../assets/img/logo.svg';
-import googleIconImg from '../assets/img/google-icon.svg';
 
 import { Button } from '../components/Button';
 
 import '../styles/auth.scss';
 
-export function Home() {
-    const history = useHistory();
-    const { user, signInWithGoogle } = useContext(AuthContext);
-
-    async function handleCreateRoom() {
-        if (!user) {
-            await signInWithGoogle();
-        }
-
-        history.push('/rooms/new');
-    }
+export function NewRoom() {
+    const { user } = useContext(AuthContext);
 
     return (
         <div id="page-auth">
@@ -33,20 +23,20 @@ export function Home() {
             <main>
                 <div className="main-content">
                     <img src={logoImg} alt="Let me ask" />
-                    <button onClick={handleCreateRoom} className="create-room">
-                        <img src={googleIconImg} alt="Google logo" />
-                        Create your room with Google
-                    </button>
-                    <div className="separator">or join a room</div>
+                    <h1>{user?.name}</h1>
+                    <h2>Create new room</h2>
                     <form>
                         <input
                             type="text"
-                            placeholder="Type room code"
+                            placeholder="Room name"
                         />
                         <Button type="submit">
-                            Join room
+                            Create room
                         </Button>
                     </form>
+                    <p>
+                        Do you want to join an existing room? <Link to="/">Click here</Link>
+                    </p>
                 </div>
             </main>
         </div>
