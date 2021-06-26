@@ -22,6 +22,9 @@ cd Letmeask
 
 # Install dependencies
 yarn
+
+# Run the project
+yarn start
 ```
 
 Create a `.env` or `.env.local` file in the root following the template in `.env.example`
@@ -41,6 +44,6 @@ REACT_APP_APP_ID=""
 - [Typescript](https://www.typescriptlang.org/) - superset of JS programming language static typed
 - [Node.js](https://nodejs.org/en/) - executes JS scripts in server side
 - [ReactJS](https://reactjs.org/) - frontend library
+- [React router dom](https://www.npmjs.com/package/react-router-dom) - routing and navigation for react apps
 - [Firebase](https://firebase.google.com/) - backend as a service provider
-
-react-router-dom
+- [Class names](https://www.npmjs.com/package/classnames) - conditionally join classNames together
