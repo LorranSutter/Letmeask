@@ -1,13 +1,30 @@
 # Let Me Ask - Next Level Week Together
 
-Project provided by [Rocket Seat](https://rocketseat.com.br/) to learn frontend development employing React JS and Firebase.
+Project provided by [Rocket Seat](https://rocketseat.com.br/) to learn frontend development employing [ReactJS](https://reactjs.org/) and [Firebase](https://firebase.google.com/).
 
-<!-- <div align="center">
+<div align="center">
 
-<img src="https://res.cloudinary.com/lorransutter/image/upload/v1591489742/ecoleta_site_preview.gif" alt="Site preview" height="300"/>
-<img src="https://res.cloudinary.com/lorransutter/image/upload/v1591491000/ecoleta_mobile_preview.gif" alt="Mobile preview" height="300"/>
+<img src="https://res.cloudinary.com/lorransutter/image/upload/v1624749570/Let_me_ask/Let_me_ask.gif" alt="Site preview" height="300"/>
 
-</div> -->
+</div>
+
+This project aims to create a web application to help live streamers to answer audience's questions.
+
+A view can:
+
+- Login with google account
+- Join existing rooms through room id
+- Ask a new question
+- Like and unlike asked questions in the list
+
+A room admin can:
+
+- Login with google account
+- Create a new room
+- Highlight asked question
+- Mark question as answered
+- Delete question
+- Close room
 
 ## :runner: How to run
 
@@ -22,12 +39,9 @@ cd Letmeask
 
 # Install dependencies
 yarn
-
-# Run the project
-yarn start
 ```
 
-Create a `.env` or `.env.local` file in the root following the template in `.env.example`
+Create a `.env` or `.env.local` file in the root following the template in `.env.example`. All this information can be found in your account at [firebase console](https://console.firebase.google.com/)
 
 ```sh
 REACT_APP_API_KEY=""
@@ -39,11 +53,18 @@ REACT_APP_MESSAGING_SENDER_ID=""
 REACT_APP_APP_ID=""
 ```
 
+Run the project
+
+```sh
+# Run the project
+yarn start
+```
+
 ## :book: Resources and technologies :computer:
 
 - [Typescript](https://www.typescriptlang.org/) - superset of JS programming language static typed
 - [Node.js](https://nodejs.org/en/) - executes JS scripts in server side
+- [Firebase](https://firebase.google.com/) - backend as a service provider
 - [ReactJS](https://reactjs.org/) - frontend library
 - [React router dom](https://www.npmjs.com/package/react-router-dom) - routing and navigation for react apps
-- [Firebase](https://firebase.google.com/) - backend as a service provider
 - [Class names](https://www.npmjs.com/package/classnames) - conditionally join classNames together
