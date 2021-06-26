@@ -65,6 +65,7 @@ yarn start
 - [Typescript](https://www.typescriptlang.org/) - superset of JS programming language static typed
 - [Node.js](https://nodejs.org/en/) - executes JS scripts in server side
 - [Firebase](https://firebase.google.com/) - backend as a service provider
+- [Sass](https://sass-lang.com/documentation/syntax) - CSS pre-processor with syntax advancements
 - [ReactJS](https://reactjs.org/) - frontend library
 - [React router dom](https://www.npmjs.com/package/react-router-dom) - routing and navigation for react apps
 - [Class names](https://www.npmjs.com/package/classnames) - conditionally join classNames together
