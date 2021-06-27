@@ -1,12 +1,26 @@
-# Let Me Ask - Next Level Week Together
+<h1 align="center">
 
-Project provided by [Rocket Seat](https://rocketseat.com.br/) to learn frontend development employing [ReactJS](https://reactjs.org/) and [Firebase](https://firebase.google.com/).
+<img src="https://res.cloudinary.com/lorransutter/image/upload/v1624751380/Let_me_ask/Logo.svg" alt="Letmeask logo"/>
+
+</h1>
+
+<p align="center">
+  <a href="#scroll-features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#runner-how-to-run">How to run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#book-resources-and-technologies-computer">Resources and technologies</a>
+</p>
 
 <div align="center">
+
+<p>
+Project provided by <a href="https://rocketseat.com.br/">Rocket Seat</a> to learn frontend development employing <a href="https://reactjs.org/">ReactJS</a> and <a href="https://firebase.google.com/">Firebase</a>.
+</p>
 
 <img src="https://res.cloudinary.com/lorransutter/image/upload/v1624749570/Let_me_ask/Let_me_ask.gif" alt="Site preview" height="300"/>
 
 </div>
+
+## :scroll: Features
 
 This project aims to create a web application to help live streamers to answer audience's questions.
 
